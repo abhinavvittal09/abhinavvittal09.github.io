@@ -1,0 +1,14 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join a Sarvah group</title>
+<body style="font-family:-apple-system,system-ui;background:#101014;color:#eee;display:grid;place-items:center;min-height:90vh">
+<main style="text-align:center;padding:16px;max-width:28rem">
+<h1 style="margin-bottom:0.2em">Join the group</h1>
+<p id="code" style="font-size:2rem;letter-spacing:0.15em;font-weight:700"></p>
+<p>If Sarvah is installed, opening this link lands you on the join screen. Otherwise, ask your friend for the app build, then enter the code above under Split &rsaquo; Join.</p>
+</main>
+<script>
+var m = location.pathname.match(/\/sarvah\/join\/([A-Za-z0-9]+)/);
+document.getElementById('code').textContent = m ? m[1].toUpperCase() : '';
+</script>

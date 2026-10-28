@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["R5HTPURL3R.com.abhimama.sarvah"],
+        "components": [{ "/": "/sarvah/join/*" }]
+      }
+    ]
+  }
+}
